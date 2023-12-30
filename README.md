@@ -1,1 +1,1 @@
-My Portfolio website build using React.js
+My Portfolio website is built using React. js
