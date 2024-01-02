@@ -2,11 +2,8 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-// import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-// import { CgGitFork } from "react-icons/cg";
 import {
-  // AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineContacts
@@ -37,9 +34,6 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        {/* <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand> */}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -101,16 +95,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/19sajib/portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
